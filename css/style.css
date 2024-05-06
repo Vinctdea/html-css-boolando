@@ -84,5 +84,25 @@ main img {
     display: none;
 }
 
+.label-discount{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    left: 10%;
+}
+
+#green2{
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+}
+
 
 
