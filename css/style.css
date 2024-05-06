@@ -104,5 +104,16 @@ main img {
     bottom: 8%;
 }
 
+.heart{
+    text-align: center;
+    width: 30px;
+    position: absolute;
+    top: 1%;
+    right: 0;
+    display: inline-block;
+    background-color: white;
+    font-size: 30px;
+}
+
 
 
