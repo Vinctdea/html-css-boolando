@@ -1,0 +1,38 @@
+/* regole generali */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* regole header */
+header{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   min-height: 100px;
+   background-color: coral;
+   position: fixed;
+   top: 0;
+} 
+
+header section{
+    margin: 0 10%;
+    align-content: center;
+    /* debug */
+    min-width: 300px;
+    min-height: 20px;
+    background-color: aquamarine; 
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    list-style: none;
+    } 
+
+li a{
+    color: white;
+    text-decoration: none;
+}
