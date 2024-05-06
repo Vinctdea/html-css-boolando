@@ -89,7 +89,7 @@ main img {
     color: white;
     position: absolute;
     left: 0;
-    bottom: 8%;
+    bottom: 20%;
 }
 
 .green{
@@ -101,7 +101,7 @@ main img {
 #green2{
     position: absolute;
     left: 0;
-    bottom: 8%;
+    bottom: 20%;
 }
 
 .heart{
@@ -113,6 +113,15 @@ main img {
     display: inline-block;
     background-color: white;
     font-size: 30px;
+}
+  
+
+.price-sale{
+    color: red;
+}
+
+.price{
+    text-decoration: line-through;
 }
 
 
