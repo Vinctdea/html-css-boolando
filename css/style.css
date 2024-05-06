@@ -9,16 +9,17 @@
 header{
    display: flex;
    width: 100%;
-   height: 80px;
+   height: 70px;
    background-color: coral;
    position: fixed;
    top: 0;
+   z-index: 5;
 } 
 
     header section{
-    margin: 0 auto;
+    margin:0 15% ;
     align-content: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* debug */   
     /* background-color: aquamarine;
     min-height: 30px;  */
@@ -59,7 +60,27 @@ main{
 
 .box-product{
     width: calc(( 100% / 3) - 20px);
-    min-height: 300px;
-    background-color: blue;    
+    min-height: 300px; 
+    position: relative;  
+    /* debug */
+    /* background-color: blue;  */
 } 
+
+main img {
+    max-width: 100%;
+}
+
+.img-h{
+    display: none;
+}
+
+.box-product:hover .img-h{
+    display: inline-block;
+}
+
+.box-product:hover img{
+    display: none;
+}
+
+
 
